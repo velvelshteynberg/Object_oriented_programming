@@ -64,6 +64,9 @@ def last_name=(last_name)
     @last_name = last_name
 end
 
+#to access reader and writer there is a different command
+attr_accessor :first_name, :email 
+
 
 
 end
