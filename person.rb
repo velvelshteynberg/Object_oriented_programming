@@ -40,26 +40,32 @@ def awaken
     @awake = true
 end
 
-
+end
 end
 
-me = Person.new("velvel", "Shteynberg", "velvelshteynberg")
-p me
-you = Person.new("devorah", "shteynberg", "devorahshteynberg")
-p you
+# me = Person.new("velvel", "Shteynberg", "velvelshteynberg")
+# p me
+# you = Person.new("devorah", "shteynberg", "devorahshteynberg")
+# p you
 
-p "=========================="
+# p "=========================="
 
-me.sleep
-p me
+# me.sleep
+# p me
 
-p "============================"
+# p "============================"
 
-me.greetings
-p me
+# me.greetings
+# p me
 
-p "=============================="
+# p "=============================="
 
-me.awaken
-p me
+# me.awaken
+# p me
+
+him = Person.new("Avremel", "Shteynberg", "Avremel Shteynberg")
+p him
+
+him.full_name
+p him
 
